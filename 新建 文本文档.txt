@@ -1,0 +1,38 @@
+私有 int maxSubArray(int[] a) {
+	int max=整数.MIN_VALUE;
+	for(int i=0; i<a.length; i++){
+		整数总和 = 0；
+		for(int j=i;j<a.length;j++){
+		总和 += a[j];
+		如果（总和 > 最大值）{
+		最大值 = 总和；
+			}
+		}
+	}
+		返回最大值；
+
+}
+
+公共无效测试1（）{
+	int[] a = {1,-2,4,8,-4,7,-1,-5};
+         System.out.println("方法："+maxSubArray(a));
+}
+私有 int maxSubArray(int[] a) {
+	int max=整数.MIN_VALUE;
+	for(int i=0; i<a.length; i++){
+		整数总和 = 0；
+		for(int j=i;j<a.length;j++){
+		总和 += a[j];
+		如果（总和 > 最大值）{
+		最大值 = 总和；
+			}
+		}
+	}
+		返回最大值；
+
+}
+
+公共无效测试1（）{
+	int[] a = {1,-2,4,8,-4,7,-1,-5};
+         System.out.println("方法："+maxSubArray(a));
+}
